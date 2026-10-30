@@ -1,0 +1,15 @@
+Finished:0
+Mean Accuracy Train:0.7140625
+Mean Accuracy Validation:0.4270833333333333
+Mean Precision Train:0.7183020167848634
+Mean Precision Validation:0.4288932321511167
+Mean Recall Train:0.7140625
+Mean Recall Validation:0.4270833333333333
+Mean F1 Train:0.713737514672832
+Mean F1 Validation:0.42222257653788586
+Mean AUC Train:0.9036006221064815
+Mean AUC Validation:0.6783275462962963
+Mean Specificity Train:0.7140625
+Mean Specificity Validation:0.4270833333333333
+Mean Balanced Accuracy Train:0.7140625
+Mean Balanced Accuracy Validation:0.4270833333333333

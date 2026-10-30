@@ -1,0 +1,20 @@
+Fold 1 - Early stopping at epoch 7560
+Fold 2 - Early stopping at epoch 7658
+Fold 3 - Early stopping at epoch 7158
+Fold 4 - Early stopping at epoch 7367
+Fold 5 - Early stopping at epoch 7169
+Finished:0
+Mean Accuracy Train:0.5817708333333333
+Mean Accuracy Validation:0.54375
+Mean Precision Train:0.7337339012682248
+Mean Precision Validation:0.6894273531603394
+Mean Recall Train:0.5817708333333333
+Mean Recall Validation:0.54375
+Mean F1 Train:0.5855996179159758
+Mean F1 Validation:0.542119638790673
+Mean AUC Train:0.8544126157407408
+Mean AUC Validation:0.826417824074074
+Mean Specificity Train:0.5817708333333333
+Mean Specificity Validation:0.54375
+Mean Balanced Accuracy Train:0.5817708333333333
+Mean Balanced Accuracy Validation:0.54375

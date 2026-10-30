@@ -1,0 +1,2 @@
+Seed,Source_Seed,Source_Seed_Verified,Extra_Epochs,Criterion_Met,Stopping_Status,Learning_Rate,Target_Loss_64,Final_Loss_Former_16,Acc_Train80,Acc_Test,Precision_Test,Recall_Test,F1_Test,AUC_Test,Specificity_Test,Balanced_Acc_Test
+0,0,True,0,True,criterion_met_without_updates,0.001,0.35583823919296265,0.33815544843673706,0.6291666666666667,0.675,0.8214285714285714,0.675,0.6955449220361357,0.8633333333333332,0.8916666666666666,0.6749999999999999

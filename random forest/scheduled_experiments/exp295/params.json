@@ -1,0 +1,11 @@
+{
+  "experiment": "exp295",
+  "params": {
+    "k": 200,
+    "selector_value": 2,
+    "min_samples_leaf": 2,
+    "max_depth": 20
+  },
+  "script": "scheduled_experiments\\exp295\\exp295.py",
+  "execution_time": 35.3514
+}

@@ -1,0 +1,11 @@
+{
+  "experiment": "exp264",
+  "params": {
+    "k": 1000,
+    "selector_value": 1,
+    "degrees": 3,
+    "eta0": 1.0
+  },
+  "script": "scheduled_experiments\\exp264\\exp264.py",
+  "execution_time": 135.6934
+}

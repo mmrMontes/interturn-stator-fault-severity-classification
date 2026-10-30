@@ -1,0 +1,11 @@
+{
+  "experiment": "exp86",
+  "params": {
+    "k": 100,
+    "selector_value": 4,
+    "layerdim": 64,
+    "dropout_val": 0.2
+  },
+  "script": "scheduled_experiments\\exp86\\exp86.py",
+  "execution_time": 30.664
+}

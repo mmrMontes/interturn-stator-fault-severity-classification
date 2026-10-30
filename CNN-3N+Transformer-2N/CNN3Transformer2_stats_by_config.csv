@@ -1,0 +1,4 @@
+,Acc_Test,Acc_Test,Precision_Test,Precision_Test,Recall_Test,Recall_Test,F1_Test,F1_Test,AUC_Test,AUC_Test,Balanced_Acc_Test,Balanced_Acc_Test
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+Config_Number,,,,,,,,,,,,
+69,0.6629,0.028,0.7373,0.0603,0.6629,0.028,0.6682,0.0285,0.8755,0.0291,0.6629,0.028

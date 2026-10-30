@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 500 1500"
+   width="100%"
+   height="100%"
+   version="1.1"
+   id="svg40"
+   sodipodi:docname="CNN3Transformer3.svg"
+   inkscape:export-filename="CNN3Transformer3.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview40"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.5626667"
+     inkscape:cx="115.82765"
+     inkscape:cy="-8.3191126"
+     inkscape:window-width="2560"
+     inkscape:window-height="1476"
+     inkscape:window-x="-12"
+     inkscape:window-y="1878"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg40" />
+  <defs
+     id="defs1">
+    <marker
+       id="arrow"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto">
+      <path
+         d="M 0 0 L 10 5 L 0 10 z"
+         fill="#333"
+         id="path1" />
+    </marker>
+  </defs>
+  <!-- Title -->
+  <text
+     x="250"
+     y="40"
+     font-family="sans-serif"
+     font-weight="bold"
+     font-size="18px"
+     fill="#212529"
+     text-anchor="middle"
+     id="text1">CNN3-Transformer3</text>
+  <!-- Input Layer -->
+  <rect
+     x="100"
+     y="70"
+     width="300"
+     height="50"
+     fill="#f8f9fa"
+     stroke="#6c757d"
+     stroke-width="2"
+     rx="8"
+     id="rect1" />
+  <text
+     x="250"
+     y="95"
+     font-family="sans-serif"
+     font-weight="bold"
+     font-size="14px"
+     fill="#333"
+     text-anchor="middle"
+     id="text2">Input Sequence</text>
+  <text
+     x="250"
+     y="110"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text3">Shape: (Batch Size, 3, Sequence Length)</text>
+  <path
+     fill="none"
+     stroke="#333"
+     stroke-width="2"
+     marker-end="url(#arrow)"
+     d="M 250 120 L 250 155"
+     id="path3" />
+  <!-- CNN Feature Extractor 1 -->
+  <rect
+     x="100"
+     y="160"
+     width="300"
+     height="100"
+     fill="#e3f2fd"
+     stroke="#1e88e5"
+     stroke-width="2"
+     rx="8"
+     id="rect3" />
+  <text
+     x="250"
+     y="185"
+     font-family="sans-serif"
+     font-weight="bold"
+     font-size="14px"
+     fill="#333"
+     text-anchor="middle"
+     id="text4">CNN Feature Extractor Layer 1</text>
+  <text
+     x="250"
+     y="210"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text5">Conv1d (out: cnn_layerdim, k: k1)</text>
+  <text
+     x="250"
+     y="230"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text6">ReLU Activation + Dropout(p)</text>
+  <text
+     x="250"
+     y="245"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text7">MaxPool1d (kernel_size=2, stride=2)</text>
+  <path
+     fill="none"
+     stroke="#333"
+     stroke-width="2"
+     marker-end="url(#arrow)"
+     d="M 250 260 L 250 295"
+     id="path7" />
+  <!-- CNN Feature Extractor 2 -->
+  <rect
+     x="100"
+     y="300"
+     width="300"
+     height="100"
+     fill="#e3f2fd"
+     stroke="#1e88e5"
+     stroke-width="2"
+     rx="8"
+     id="rect7" />
+  <text
+     x="250"
+     y="325"
+     font-family="sans-serif"
+     font-weight="bold"
+     font-size="14px"
+     fill="#333"
+     text-anchor="middle"
+     id="text8">CNN Feature Extractor Layer 2</text>
+  <text
+     x="250"
+     y="350"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text9">Conv1d (out: cnn_layerdim/2, k: k2)</text>
+  <text
+     x="250"
+     y="370"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text10">ReLU Activation + Dropout(p)</text>
+  <text
+     x="250"
+     y="385"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text11">MaxPool1d (kernel_size=2, stride=2)</text>
+  <path
+     fill="none"
+     stroke="#333"
+     stroke-width="2"
+     marker-end="url(#arrow)"
+     d="M 250 400 L 250 435"
+     id="path11" />
+  <!-- CNN Feature Extractor 3 -->
+  <rect
+     x="100"
+     y="440"
+     width="300"
+     height="100"
+     fill="#e3f2fd"
+     stroke="#1e88e5"
+     stroke-width="2"
+     rx="8"
+     id="rect11" />
+  <text
+     x="250"
+     y="465"
+     font-family="sans-serif"
+     font-weight="bold"
+     font-size="14px"
+     fill="#333"
+     text-anchor="middle"
+     id="text12">CNN Feature Extractor Layer 3</text>
+  <text
+     x="250"
+     y="490"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text13">Conv1d (out: cnn_layerdim/4, k: k3)</text>
+  <text
+     x="250"
+     y="510"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text14">ReLU Activation + Dropout(p)</text>
+  <text
+     x="250"
+     y="525"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text15">MaxPool1d (kernel_size=2, stride=2)</text>
+  <path
+     fill="none"
+     stroke="#333"
+     stroke-width="2"
+     marker-end="url(#arrow)"
+     d="M 250 540 L 250 575"
+     id="path15" />
+  <!-- Projection CNN to Transformer -->
+  <rect
+     x="75.682594"
+     y="580"
+     width="351.83447"
+     height="80"
+     fill="#fff9c4"
+     stroke="#fbc02d"
+     stroke-width="2"
+     rx="8"
+     id="rect15" />
+  <text
+     x="250"
+     y="605"
+     font-family="sans-serif"
+     font-weight="bold"
+     font-size="14px"
+     fill="#333"
+     text-anchor="middle"
+     id="text16">CNN to Transformer Projection</text>
+  <text
+     x="250"
+     y="625"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text17">Transpose(1, 2) → (Batch, seq/8, cnn_layerdim/4)</text>
+  <text
+     x="250"
+     y="645"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text18">Linear Proj (out: trans_layerdim)</text>
+  <path
+     fill="none"
+     stroke="#333"
+     stroke-width="2"
+     marker-end="url(#arrow)"
+     d="M 250 660 L 250 695"
+     id="path18" />
+  <!-- Transformer Encoder Layer 1 -->
+  <rect
+     x="100"
+     y="700"
+     width="300"
+     height="100"
+     fill="#e8eaf6"
+     stroke="#3f51b5"
+     stroke-width="2"
+     rx="8"
+     id="rect18" />
+  <text
+     x="250"
+     y="725"
+     font-family="sans-serif"
+     font-weight="bold"
+     font-size="14px"
+     fill="#333"
+     text-anchor="middle"
+     id="text19">Transformer Encoder Layer 1</text>
+  <text
+     x="250"
+     y="750"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text20">d_model: trans_layerdim</text>
+  <text
+     x="250"
+     y="770"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text21">dim_feedforward: trans_layerdim * 2</text>
+  <text
+     x="250"
+     y="785"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text22">Activation: ReLU | Dropout(p)</text>
+  <path
+     fill="none"
+     stroke="#333"
+     stroke-width="2"
+     marker-end="url(#arrow)"
+     d="M 250 800 L 250 835"
+     id="path22" />
+  <!-- Transformer Encoder Layer 2 -->
+  <rect
+     x="100"
+     y="840"
+     width="300"
+     height="100"
+     fill="#e8eaf6"
+     stroke="#3f51b5"
+     stroke-width="2"
+     rx="8"
+     id="rect22" />
+  <text
+     x="250"
+     y="865"
+     font-family="sans-serif"
+     font-weight="bold"
+     font-size="14px"
+     fill="#333"
+     text-anchor="middle"
+     id="text23">Transformer Encoder Layer 2</text>
+  <text
+     x="250"
+     y="890"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text24">d_model: trans_layerdim</text>
+  <text
+     x="250"
+     y="910"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text25">dim_feedforward: trans_layerdim * 2</text>
+  <text
+     x="250"
+     y="925"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text26">Activation: ReLU | Dropout(p)</text>
+  <path
+     fill="none"
+     stroke="#333"
+     stroke-width="2"
+     marker-end="url(#arrow)"
+     d="M 250 940 L 250 975"
+     id="path26" />
+  <!-- Transformer Encoder Layer 3 -->
+  <rect
+     x="100"
+     y="980"
+     width="300"
+     height="100"
+     fill="#e8eaf6"
+     stroke="#3f51b5"
+     stroke-width="2"
+     rx="8"
+     id="rect26" />
+  <text
+     x="250"
+     y="1005"
+     font-family="sans-serif"
+     font-weight="bold"
+     font-size="14px"
+     fill="#333"
+     text-anchor="middle"
+     id="text27">Transformer Encoder Layer 3</text>
+  <text
+     x="250"
+     y="1030"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text28">d_model: trans_layerdim</text>
+  <text
+     x="250"
+     y="1050"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text29">dim_feedforward: trans_layerdim * 2</text>
+  <text
+     x="250"
+     y="1065"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text30">Activation: ReLU | Dropout(p)</text>
+  <path
+     fill="none"
+     stroke="#333"
+     stroke-width="2"
+     marker-end="url(#arrow)"
+     d="M 250 1080 L 250 1115"
+     id="path30" />
+  <!-- Pooling & Flattening -->
+  <rect
+     x="78.882256"
+     y="1120"
+     width="344.15527"
+     height="80"
+     fill="#e8f5e9"
+     stroke="#43a047"
+     stroke-width="2"
+     rx="8"
+     id="rect30" />
+  <text
+     x="250"
+     y="1145"
+     font-family="sans-serif"
+     font-weight="bold"
+     font-size="14px"
+     fill="#333"
+     text-anchor="middle"
+     id="text31">Global Pooling &amp; Flattening</text>
+  <text
+     x="250"
+     y="1165"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text32">Transpose(1, 2) → (Batch, trans_layerdim, seq/8)</text>
+  <text
+     x="250"
+     y="1185"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text33">AdaptiveAvgPool1d(1) + Flatten</text>
+  <path
+     fill="none"
+     stroke="#333"
+     stroke-width="2"
+     marker-end="url(#arrow)"
+     d="M 250 1200 L 250 1235"
+     id="path33" />
+  <!-- Fully Connected 1 -->
+  <rect
+     x="80.802048"
+     y="1240"
+     width="344.15527"
+     height="90"
+     fill="#f3e5f5"
+     stroke="#8e24aa"
+     stroke-width="2"
+     rx="8"
+     id="rect33" />
+  <text
+     x="250"
+     y="1265"
+     font-family="sans-serif"
+     font-weight="bold"
+     font-size="14px"
+     fill="#333"
+     text-anchor="middle"
+     id="text34">Fully Connected Layer 1</text>
+  <text
+     x="250"
+     y="1290"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text35">Linear (in: trans_layerdim, out: trans_layerdim/2)</text>
+  <text
+     x="250"
+     y="1305"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text36">ReLU Activation</text>
+  <text
+     x="250"
+     y="1320"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text37">Dropout (p = dropout_val)</text>
+  <path
+     fill="none"
+     stroke="#333"
+     stroke-width="2"
+     marker-end="url(#arrow)"
+     d="M 250 1330 L 250 1365"
+     id="path37" />
+  <!-- Fully Connected 2 (Output) -->
+  <rect
+     x="100"
+     y="1370"
+     width="300"
+     height="70"
+     fill="#fff3e0"
+     stroke="#f4511e"
+     stroke-width="2"
+     rx="8"
+     id="rect37" />
+  <text
+     x="250"
+     y="1395"
+     font-family="sans-serif"
+     font-weight="bold"
+     font-size="14px"
+     fill="#333"
+     text-anchor="middle"
+     id="text38">Output Layer (FC2)</text>
+  <text
+     x="250"
+     y="1415"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text39">Linear (in: trans_layerdim/2, out: 4)</text>
+  <text
+     x="250"
+     y="1430"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text40">Shape: (Batch Size, 4)</text>
+</svg>

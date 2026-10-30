@@ -1,0 +1,11 @@
+{
+  "experiment": "exp24",
+  "params": {
+    "k": 50,
+    "selector_value": 2,
+    "layerdim": 64,
+    "dropout_val": 0.4
+  },
+  "script": "scheduled_experiments\\exp24\\exp24.py",
+  "execution_time": 60.1121
+}

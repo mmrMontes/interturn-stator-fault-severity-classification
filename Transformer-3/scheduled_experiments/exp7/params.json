@@ -1,0 +1,10 @@
+{
+  "experiment": "exp7",
+  "params": {
+    "input_points": 60,
+    "layerdim": 32,
+    "dropout_val": 0.0
+  },
+  "script": "scheduled_experiments\\exp7\\exp7.py",
+  "execution_time": 274.1211
+}

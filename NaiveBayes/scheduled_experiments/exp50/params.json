@@ -1,0 +1,10 @@
+{
+  "experiment": "exp50",
+  "params": {
+    "k": 200,
+    "selector_value": 2,
+    "var_smoothing": 1e-05
+  },
+  "script": "scheduled_experiments\\exp50\\exp50.py",
+  "execution_time": 193.1152
+}

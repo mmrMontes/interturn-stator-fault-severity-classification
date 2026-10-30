@@ -1,0 +1,11 @@
+{
+  "experiment": "exp264",
+  "params": {
+    "k": 200,
+    "selector_value": 0,
+    "min_samples_leaf": 10,
+    "max_depth": 1000
+  },
+  "script": "scheduled_experiments\\exp264\\exp264.py",
+  "execution_time": 31.9657
+}

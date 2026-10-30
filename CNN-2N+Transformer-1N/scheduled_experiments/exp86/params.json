@@ -1,0 +1,11 @@
+{
+  "experiment": "exp86",
+  "params": {
+    "cnn_layerdim": 128,
+    "cnn_kernel_size": 32,
+    "trans_layerdim": 64,
+    "dropout_val": 0.2
+  },
+  "script": "scheduled_experiments\\exp86\\exp86.py",
+  "execution_time": 273.4375
+}

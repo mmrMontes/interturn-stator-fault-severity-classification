@@ -1,0 +1,10 @@
+{
+  "experiment": "exp42",
+  "params": {
+    "layerdim": 64,
+    "dropout_val": 0.4,
+    "ker_size": 48
+  },
+  "script": "scheduled_experiments\\exp42\\exp42.py",
+  "execution_time": 219.1581
+}

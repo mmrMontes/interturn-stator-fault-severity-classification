@@ -1,0 +1,11 @@
+{
+  "experiment": "exp48",
+  "params": {
+    "cnn_layerdim": 64,
+    "cnn_kernel_size": 96,
+    "trans_layerdim": 32,
+    "dropout_val": 0.4
+  },
+  "script": "scheduled_experiments\\exp48\\exp48.py",
+  "execution_time": 247.4609
+}

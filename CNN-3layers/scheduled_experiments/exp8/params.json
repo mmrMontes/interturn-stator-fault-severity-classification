@@ -1,0 +1,10 @@
+{
+  "experiment": "exp8",
+  "params": {
+    "layerdim": 48,
+    "dropout_val": 0.4,
+    "ker_size": 16
+  },
+  "script": "scheduled_experiments\\exp8\\exp8.py",
+  "execution_time": 273.4375
+}

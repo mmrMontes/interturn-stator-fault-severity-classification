@@ -1,0 +1,16 @@
+Fold 5 - Early stopping at epoch 6876
+Finished:0
+Mean Accuracy Train:0.8869791666666668
+Mean Accuracy Validation:0.7458333333333333
+Mean Precision Train:0.8933337768864531
+Mean Precision Validation:0.7524109666749994
+Mean Recall Train:0.8869791666666668
+Mean Recall Validation:0.7458333333333333
+Mean F1 Train:0.8869077100248026
+Mean F1 Validation:0.7431060059359542
+Mean AUC Train:0.9847240306712963
+Mean AUC Validation:0.9355034722222222
+Mean Specificity Train:0.8869791666666668
+Mean Specificity Validation:0.7458333333333333
+Mean Balanced Accuracy Train:0.8869791666666668
+Mean Balanced Accuracy Validation:0.7458333333333333

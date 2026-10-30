@@ -1,0 +1,11 @@
+{
+  "experiment": "exp177",
+  "params": {
+    "k": 200,
+    "selector_value": 1,
+    "degrees": 3,
+    "C": 0.1
+  },
+  "script": "scheduled_experiments\\exp177\\exp177.py",
+  "execution_time": 49617.1246
+}

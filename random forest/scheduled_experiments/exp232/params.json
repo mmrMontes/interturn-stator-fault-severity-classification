@@ -1,0 +1,11 @@
+{
+  "experiment": "exp232",
+  "params": {
+    "k": 100,
+    "selector_value": 4,
+    "min_samples_leaf": 4,
+    "max_depth": 1000
+  },
+  "script": "scheduled_experiments\\exp232\\exp232.py",
+  "execution_time": 37.2269
+}

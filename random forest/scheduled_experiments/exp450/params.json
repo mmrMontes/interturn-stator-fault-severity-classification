@@ -1,0 +1,11 @@
+{
+  "experiment": "exp450",
+  "params": {
+    "k": 500,
+    "selector_value": 3,
+    "min_samples_leaf": 5,
+    "max_depth": 10
+  },
+  "script": "scheduled_experiments\\exp450\\exp450.py",
+  "execution_time": 29.313
+}

@@ -1,0 +1,24 @@
+script: "logisticlass.py"
+search_space:
+  k: [50,100,200,500,1000]
+  selector_value: [0, 1, 2, 3, 4]
+  C: [0.01, 0.1, 1, 10, 100]
+  penalty_value: [0, 1]
+step: "Finished"
+metrics:
+ main: "Mean Accuracy Validation"
+ others:
+  - "Mean Accuracy Train"
+  - "Mean Accuracy Validation"
+  - "Mean Precision Train"
+  - "Mean Precision Validation"
+  - "Mean Recall Train"
+  - "Mean Recall Validation"
+  - "Mean F1 Train"
+  - "Mean F1 Validation"
+  - "Mean AUC Train"
+  - "Mean AUC Validation"
+  - "Mean Specificity Train"
+  - "Mean Specificity Validation"
+  - "Mean Balanced Accuracy Train"
+  - "Mean Balanced Accuracy Validation"

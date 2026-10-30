@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 500 750"
+   width="100%"
+   height="100%"
+   version="1.1"
+   id="svg19"
+   sodipodi:docname="Layer1CNN.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   inkscape:export-filename="Layer1CNN.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview19"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.5626667"
+     inkscape:cx="250.21331"
+     inkscape:cy="375"
+     inkscape:window-width="2560"
+     inkscape:window-height="1476"
+     inkscape:window-x="-12"
+     inkscape:window-y="1878"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg19" />
+  <defs
+     id="defs1">
+    <marker
+       id="arrow"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto">
+      <path
+         d="M 0 0 L 10 5 L 0 10 z"
+         fill="#333"
+         id="path1" />
+    </marker>
+  </defs>
+  <!-- Title -->
+  <text
+     x="250"
+     y="40"
+     font-family="sans-serif"
+     font-weight="bold"
+     font-size="18px"
+     fill="#212529"
+     text-anchor="middle"
+     id="text1">1-Layer 1D CNN</text>
+  <!-- Input Layer -->
+  <rect
+     x="100"
+     y="70"
+     width="300"
+     height="50"
+     fill="#f8f9fa"
+     stroke="#6c757d"
+     stroke-width="2"
+     rx="8"
+     id="rect1" />
+  <text
+     x="250"
+     y="95"
+     font-family="sans-serif"
+     font-weight="bold"
+     font-size="14px"
+     fill="#333"
+     text-anchor="middle"
+     id="text2">Input Sequence</text>
+  <text
+     x="250"
+     y="110"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text3">Shape: (Batch Size, 3, Sequence Length)</text>
+  <path
+     fill="none"
+     stroke="#333"
+     stroke-width="2"
+     marker-end="url(#arrow)"
+     d="M 250 120 L 250 155"
+     id="path3" />
+  <!-- Convolutional Block 1 -->
+  <rect
+     x="100"
+     y="160"
+     width="300"
+     height="100"
+     fill="#e3f2fd"
+     stroke="#1e88e5"
+     stroke-width="2"
+     rx="8"
+     id="rect3" />
+  <text
+     x="250"
+     y="185"
+     font-family="sans-serif"
+     font-weight="bold"
+     font-size="14px"
+     fill="#333"
+     text-anchor="middle"
+     id="text4">Convolutional Block 1</text>
+  <text
+     x="250"
+     y="210"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text5">Conv1d (in: 3, out: layerdim, k: kernel_size)</text>
+  <text
+     x="250"
+     y="230"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text6">ReLU Activation</text>
+  <text
+     x="250"
+     y="245"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text7">Dropout (p = dropout_val)</text>
+  <path
+     fill="none"
+     stroke="#333"
+     stroke-width="2"
+     marker-end="url(#arrow)"
+     d="M 250 260 L 250 295"
+     id="path7" />
+  <!-- Max Pooling 1 -->
+  <rect
+     x="100"
+     y="300"
+     width="300"
+     height="50"
+     fill="#e8f5e9"
+     stroke="#43a047"
+     stroke-width="2"
+     rx="8"
+     id="rect7" />
+  <text
+     x="250"
+     y="325"
+     font-family="sans-serif"
+     font-weight="bold"
+     font-size="14px"
+     fill="#333"
+     text-anchor="middle"
+     id="text8">Local Pooling</text>
+  <text
+     x="250"
+     y="340"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text9">MaxPool1d (kernel_size=2, stride=2)</text>
+  <path
+     fill="none"
+     stroke="#333"
+     stroke-width="2"
+     marker-end="url(#arrow)"
+     d="M 250 350 L 250 385"
+     id="path9" />
+  <!-- Global Pooling & Flatten -->
+  <rect
+     x="100"
+     y="390"
+     width="300"
+     height="70"
+     fill="#e8f5e9"
+     stroke="#43a047"
+     stroke-width="2"
+     rx="8"
+     id="rect9" />
+  <text
+     x="250"
+     y="415"
+     font-family="sans-serif"
+     font-weight="bold"
+     font-size="14px"
+     fill="#333"
+     text-anchor="middle"
+     id="text10">Global Pooling &amp; Flattening</text>
+  <text
+     x="250"
+     y="435"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text11">AdaptiveAvgPool1d(1)</text>
+  <text
+     x="250"
+     y="450"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text12">View / Flatten: (Batch Size, layerdim)</text>
+  <path
+     fill="none"
+     stroke="#333"
+     stroke-width="2"
+     marker-end="url(#arrow)"
+     d="M 250 460 L 250 495"
+     id="path12" />
+  <!-- Fully Connected 1 -->
+  <rect
+     x="100"
+     y="500"
+     width="300"
+     height="90"
+     fill="#f3e5f5"
+     stroke="#8e24aa"
+     stroke-width="2"
+     rx="8"
+     id="rect12" />
+  <text
+     x="250"
+     y="525"
+     font-family="sans-serif"
+     font-weight="bold"
+     font-size="14px"
+     fill="#333"
+     text-anchor="middle"
+     id="text13">Fully Connected Layer 1</text>
+  <text
+     x="250"
+     y="550"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text14">Linear (in: layerdim, out: layerdim/2)</text>
+  <text
+     x="250"
+     y="565"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text15">ReLU Activation</text>
+  <text
+     x="250"
+     y="580"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text16">Dropout (p = dropout_val)</text>
+  <path
+     fill="none"
+     stroke="#333"
+     stroke-width="2"
+     marker-end="url(#arrow)"
+     d="M 250 590 L 250 625"
+     id="path16" />
+  <!-- Fully Connected 2 (Output) -->
+  <rect
+     x="100"
+     y="630"
+     width="300"
+     height="70"
+     fill="#fff3e0"
+     stroke="#f4511e"
+     stroke-width="2"
+     rx="8"
+     id="rect16" />
+  <text
+     x="250"
+     y="655"
+     font-family="sans-serif"
+     font-weight="bold"
+     font-size="14px"
+     fill="#333"
+     text-anchor="middle"
+     id="text17">Output Layer (FC2)</text>
+  <text
+     x="250"
+     y="675"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text18">Linear (in: layerdim/2, out: 4)</text>
+  <text
+     x="250"
+     y="690"
+     font-family="sans-serif"
+     font-size="13px"
+     fill="#555"
+     text-anchor="middle"
+     id="text19">Shape: (Batch Size, 4)</text>
+</svg>

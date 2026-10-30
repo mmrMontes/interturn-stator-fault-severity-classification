@@ -1,0 +1,24 @@
+script: "CNN-3-Transformer-1.py"
+search_space:
+  cnn_layerdim: [48, 64, 96, 128]
+  cnn_kernel_size: [32, 64, 96]
+  trans_layerdim: [32, 64, 96]
+  dropout_val: [0.0, 0.2, 0.4]
+step: "Finished"
+metrics:
+ main: "Mean Accuracy Validation"
+ others:
+  - "Mean Accuracy Train"
+  - "Mean Accuracy Validation"
+  - "Mean Precision Train"
+  - "Mean Precision Validation"
+  - "Mean Recall Train"
+  - "Mean Recall Validation"
+  - "Mean F1 Train"
+  - "Mean F1 Validation"
+  - "Mean AUC Train"
+  - "Mean AUC Validation"
+  - "Mean Specificity Train"
+  - "Mean Specificity Validation"
+  - "Mean Balanced Accuracy Train"
+  - "Mean Balanced Accuracy Validation"

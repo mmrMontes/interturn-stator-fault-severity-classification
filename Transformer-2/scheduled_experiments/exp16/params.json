@@ -1,0 +1,10 @@
+{
+  "experiment": "exp16",
+  "params": {
+    "input_points": 120,
+    "layerdim": 64,
+    "dropout_val": 0.2
+  },
+  "script": "scheduled_experiments\\exp16\\exp16.py",
+  "execution_time": 246.7773
+}

@@ -1,0 +1,23 @@
+script: "Transformer-1.py"
+search_space:
+  input_points: [30, 60, 120, 180]
+  layerdim: [32, 64, 96]
+  dropout_val: [0.0, 0.2]
+step: "Finished"
+metrics:
+ main: "Mean Accuracy Validation"
+ others:
+  - "Mean Accuracy Train"
+  - "Mean Accuracy Validation"
+  - "Mean Precision Train"
+  - "Mean Precision Validation"
+  - "Mean Recall Train"
+  - "Mean Recall Validation"
+  - "Mean F1 Train"
+  - "Mean F1 Validation"
+  - "Mean AUC Train"
+  - "Mean AUC Validation"
+  - "Mean Specificity Train"
+  - "Mean Specificity Validation"
+  - "Mean Balanced Accuracy Train"
+  - "Mean Balanced Accuracy Validation"

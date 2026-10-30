@@ -1,0 +1,11 @@
+{
+  "experiment": "exp213",
+  "params": {
+    "k": 1000,
+    "selector_value": 3,
+    "layerdim": 64,
+    "dropout_val": 0.4
+  },
+  "script": "scheduled_experiments\\exp213\\exp213.py",
+  "execution_time": 28.7055
+}

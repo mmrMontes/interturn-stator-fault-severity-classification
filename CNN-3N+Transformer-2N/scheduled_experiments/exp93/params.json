@@ -1,0 +1,11 @@
+{
+  "experiment": "exp93",
+  "params": {
+    "cnn_layerdim": 128,
+    "cnn_kernel_size": 64,
+    "trans_layerdim": 32,
+    "dropout_val": 0.4
+  },
+  "script": "scheduled_experiments\\exp93\\exp93.py",
+  "execution_time": 260.1074
+}

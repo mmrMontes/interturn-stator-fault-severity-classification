@@ -1,0 +1,11 @@
+{
+  "experiment": "exp40",
+  "params": {
+    "cnn_layerdim": 64,
+    "cnn_kernel_size": 64,
+    "trans_layerdim": 64,
+    "dropout_val": 0.0
+  },
+  "script": "scheduled_experiments\\exp40\\exp40.py",
+  "execution_time": 261.8164
+}

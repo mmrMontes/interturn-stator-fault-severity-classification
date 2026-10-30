@@ -1,0 +1,11 @@
+{
+  "experiment": "exp107",
+  "params": {
+    "cnn_layerdim": 128,
+    "cnn_kernel_size": 96,
+    "trans_layerdim": 96,
+    "dropout_val": 0.2
+  },
+  "script": "scheduled_experiments\\exp107\\exp107.py",
+  "execution_time": 273.7793
+}
